@@ -1,31 +1,19 @@
-h1 {
+body{
+    background-color: darksalmon;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+li{
     color: saddlebrown;
 }
-
-.item {
-    background: chocolate;
-    text-align: center;
-    list-style-type: none;
-}
-
-h2 {
-    text-align: center;
-    font-size: 30px;
-
-}
-p{
+.description{
     text-align: justify;
+    background-color: #bb6375;
 }
-
-.item-description {
-    background-color: antiquewhite;
-    text-align: justify;
-    padding: 5px;
-}
-
 .image{
-
-    display: block;
     width: 200px;
-    margin-left: 100px;
+    border: 10px solid brown;
+    border-radius: 20px;
 }
