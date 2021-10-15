@@ -1,0 +1,49 @@
+body{
+    background: antiquewhite;
+}
+.heading {
+    text-align: center;
+    font-size: 30px;
+    background-color: burlywood;
+}
+.target {
+    background: darksalmon;
+    text-align: center;
+    color: #bb6375
+}
+img{
+    border: 10px double saddlebrown;
+    width: 200px;
+    height: 300px;
+}
+
+ul{
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+body{
+    background: antiquewhite;
+}
+.heading {
+    text-align: center;
+    font-size: 30px;
+    background-color: burlywood;
+}
+.target {
+    background: darksalmon;
+    text-align: center;
+    color: #bb6375
+}
+img{
+    border: 10px double saddlebrown;
+    width: 200px;
+    height: 300px;
+}
+
+ul{
+    text-align: justify;
+    font-size: 20px;
+
+}
