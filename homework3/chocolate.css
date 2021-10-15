@@ -1,0 +1,31 @@
+h1 {
+    color: saddlebrown;
+}
+
+.item {
+    background: chocolate;
+    text-align: center;
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+p{
+    text-align: justify;
+}
+
+.item-description {
+    background-color: antiquewhite;
+    text-align: justify;
+    padding: 5px;
+}
+
+.image{
+
+    display: block;
+    width: 200px;
+    margin-left: 100px;
+}
