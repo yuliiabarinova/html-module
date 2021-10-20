@@ -1,0 +1,40 @@
+.container{
+    width: 500px;
+    background: cornflowerblue;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    border: white solid 1px;
+}
+.header{
+    height: 100px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 50px;
+    background: blueviolet;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    height: 400px;
+}
+.item1{
+    width: 80%;
+    border: white solid 1px;
+}
+.item2{
+    flex-grow: 1;
+}
+.footer{
+    height: 50px;
+    box-sizing: border-box;
+}
+.bg-pink{
+    background: pink;
+}
