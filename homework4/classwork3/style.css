@@ -1,0 +1,36 @@
+.container{
+    width: 600px;
+    margin:0 auto;
+    padding: 5px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    background: lightslategrey;
+    height: 100px;
+}
+.main_item1{
+    width:50%
+}
+.main_item2{
+    flex-grow: 1;
+}
+.kaboobs{
+    height: 200px;
+    background: pink;
+
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #bb6375;
+}
+footer_item{
+    width: 33%;
+    height: 100px;
+}
