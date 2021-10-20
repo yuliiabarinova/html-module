@@ -1,0 +1,56 @@
+.container{
+    width: 700px;
+    background: pink;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+.content{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.menu{
+   margin-right: 5px;
+    width: 30%;
+    border: 5px solid black;
+}
+
+.post_right{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+}
+
+.post{
+    width: auto;
+    height: 50%;
+    border: 5px solid black;
+    margin-bottom: 5px;
+
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: grey;
+}
