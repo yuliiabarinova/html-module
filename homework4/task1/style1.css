@@ -1,0 +1,33 @@
+.wrap{
+    width: 1000px;
+    border:5px solid lightslategrey;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 150px;
+    width: 100%;
+    background: pink;
+    margin-bottom: 5px;
+}
+.content{
+    height: 500px;
+    column-gap:5px;
+    display: flex;
+}
+.item1{
+    background-color: #bb6375;
+    width: 75%;
+}
+.item2{
+        background-color: darksalmon;
+        width: 30%;
+}
+
+
