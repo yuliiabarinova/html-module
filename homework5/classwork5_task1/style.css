@@ -1,0 +1,45 @@
+.h100 {
+    height: 100px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.bg {
+    background: purple;
+}
+
+.radius {
+    border-radius: 5px;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+
+.square {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-direction: row;
+    column-gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+}
+
+.round {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-direction: row;
+    column-gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background: grey;
+}
