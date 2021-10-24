@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px
+}
+
+.soc-icon{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: cornflowerblue;
+    column-gap: 5px;
+    padding: 0 25px;
+}
+
+.soc-icon__link{
+    width: 25px;
+    height: 5px;
+    background: black;
+    border-radius: 8px;
+}
+.header__top {
+    position: relative;
+    padding: 10px 0 20px;
+    background: grey;
+}
+.header__top_grid{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.header__logo{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: black;
+}
+.nav__item{
+    display: inline-block;
+    margin-right: 15px;
+    width: 60px;
+    height: 10px;
+    background: black;
+
+}
+.header{
+    background: cornflowerblue;
+}
+.header__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+    padding: 100px;
+}
+.header__text{
+    width: 80%;
+    line-height: 25px;
+    text-align: center;
+}
+.header__main button{
+    margin-top: 25px;
+    background: black;
+    width: 300px;
+    color: wheat;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.products{
+    padding: 100px;
+    background: grey;
+}
+.products_grid{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.products__title {
+    align-items: center;
+    text-align: center;
+}
+.products__list{
+    display: flex;
+    column-gap: 30px;
+    padding-top: 20px;
+}
+.products__item{
+    flex-grow: 1;
+}
+.products__item__img{
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+}
+.products__item p{
+    text-align: center;
+    margin-top: 15px;
+}
+.about{
+    background: pink;
+    padding: 50px 0;
+}
+.about__grid{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about_card{
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.about__photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: grey;
+
+
+}
+.about__name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav__button{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: darkcyan;
+    right: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav__button span {
+    display: inline-block;
+    width: 80%;
+    height: 7px;
+    background: white;
+}

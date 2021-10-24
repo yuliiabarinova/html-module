@@ -1,0 +1,39 @@
+@media screen and (max-width: 375px) {
+    .soc-icon {
+        display: none;
+    }
+
+    .nav__button {
+        display: flex;
+    }
+
+    .nav__item {
+        display: none;
+    }
+
+    .header__top {
+        background: pink;
+    }
+
+    .header {
+        background: pink;
+    }
+
+    .header__text {
+        text-align: justify;
+    }
+
+    .products__list, .about__grid {
+        flex-direction: column;
+    }
+
+    .products {
+        padding: 10px;
+        background: pink;
+    }
+
+    .about_card {
+        width: 100%;
+    }
+
+}
