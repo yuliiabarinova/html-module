@@ -1,0 +1,25 @@
+@media screen and (max-width: 400px){
+    .square {
+        background: darkcyan;
+        flex-direction: column;
+        width: 360px;
+    }
+    .square__item{
+        width: 30px;
+        height: 30px;
+    }
+    .round{
+        background: pink;
+        flex-direction: column;
+        width: 360px;
+
+    }
+    .round__item{
+        width: 30px;
+        height: 30px;
+    }
+    span{
+        font-size: 10px;
+        font-weight: 900;
+    }
+}
