@@ -192,3 +192,13 @@
     row-gap: 10px;
     margin-right: 50px;
 }
+.carousel-item img{
+    width: 600px;
+    margin: 0 auto;
+}
+button{
+    background: #80ABFF;
+    opacity: 0.35;
+    border: 1px solid #0045AC;
+    box-sizing: border-box;
+}
