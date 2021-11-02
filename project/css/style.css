@@ -29,6 +29,21 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.button__media{
+    display: none;
+}
+.button__media{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.button__media img{
+
+    margin-left: 4px;
+}
+
 .nav, .nav2{
     display: flex;
     align-items: center;

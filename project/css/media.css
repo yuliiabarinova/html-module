@@ -7,9 +7,16 @@
     .header__schedule {
         display: none;
     }
-    .header__button{
-
+    .header__address, .header__whatsup, .header__contact{
+        margin-bottom: 15px;
     }
+    .button__media{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .header__bottom{
         flex-direction: column;
     }
